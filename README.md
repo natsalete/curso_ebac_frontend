@@ -20,3 +20,32 @@ Criar uma branch chamada exercicio_git no repositório recém-criado;
 Na branch exercício_git deverá ser adicionado um arquivo nome.txt com o seu nome completo;
 
 Disponibilizar o link do repositório no portal do aluno.
+
+## 3.11 Tarefa Prática (Módulo 3)
+### HTML
+
+#### Atividade Proposta:
+A entrega desse exercício consiste em:
+
+
+
+Criar um arquivo HTML que contenha um formulário de cadastro, com os campos nome, e-mail e senha e a existência de um botão para realizar o cadastro;
+
+Adicionar também uma label para cada campo e referenciar essa label ao ID que será atribuído ao campo;
+
+Enviar esse arquivo para o Github em uma branch chamada exercício_html;
+
+Enviar o link para nossos tutores.
+
+
+
+Atenção!
+
+
+
+Exemplo da entrega:
+
+https://static.lms.ebaconline.com.br/content-files/358eb569-1596-41d4-8b4f-b151340e6b7b/original.png
+
+
+
