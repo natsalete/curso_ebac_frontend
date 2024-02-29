@@ -37,15 +37,9 @@ Enviar esse arquivo para o Github em uma branch chamada exercício_html;
 
 Enviar o link para nossos tutores.
 
-
-
 Atenção!
-
-
 
 Exemplo da entrega:
 
-https://static.lms.ebaconline.com.br/content-files/358eb569-1596-41d4-8b4f-b151340e6b7b/original.png
-
-
+![image](https://github.com/natsalete/curso_ebac_frontend/assets/135389319/36557b62-b136-4f4e-9ebe-8dd68307cdac)
 
