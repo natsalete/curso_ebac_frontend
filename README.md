@@ -25,9 +25,8 @@ Disponibilizar o link do repositório no portal do aluno.
 ### HTML
 
 #### Atividade Proposta:
+
 A entrega desse exercício consiste em:
-
-
 
 Criar um arquivo HTML que contenha um formulário de cadastro, com os campos nome, e-mail e senha e a existência de um botão para realizar o cadastro;
 
@@ -42,4 +41,17 @@ Atenção!
 Exemplo da entrega:
 
 ![image](https://github.com/natsalete/curso_ebac_frontend/assets/135389319/36557b62-b136-4f4e-9ebe-8dd68307cdac)
+
+## 4.9 Tarefa Prática (Modúlo 4)
+### CSS
+
+#### Atividade Proposta:
+
+A entrega desse exercício consiste em:
+
+Criar mais duas seções no layout criado durante o módulo, por exemplo: entretenimento e tecnologia, as novas seções devem conter outras notícias e diferentes cores;
+
+Enviar os arquivos para o Github em uma branch chamada exercício_css;
+
+Enviar o link na plataforma.
 
