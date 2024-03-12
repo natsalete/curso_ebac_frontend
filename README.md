@@ -6,40 +6,17 @@ A EBAC é uma instituição inovadora de ensino superior em Artes Criativas e Te
 
 link do curso: https://ebaconline.com.br/front-end-profession#price
 
-## 2.11 Tarefa Prática (Módulo 2)
-### Versionamento de código usando o Git 
+## 4.9 Tarefa Prática (Modúlo 4)
+### CSS
 
 #### Atividade Proposta:
 
 A entrega desse exercício consiste em:
 
-Criar um repositório no Github, por exemplo: curso_ebac_frontend;
+Criar mais duas seções no layout criado durante o módulo, por exemplo: entretenimento e tecnologia, as novas seções devem conter outras notícias e diferentes cores;
 
-Criar uma branch chamada exercicio_git no repositório recém-criado;
+Enviar os arquivos para o Github em uma branch chamada exercício_css;
 
-Na branch exercício_git deverá ser adicionado um arquivo nome.txt com o seu nome completo;
+Enviar o link na plataforma.
 
-Disponibilizar o link do repositório no portal do aluno.
-
-## 3.11 Tarefa Prática (Módulo 3)
-### HTML
-
-#### Atividade Proposta:
-A entrega desse exercício consiste em:
-
-
-
-Criar um arquivo HTML que contenha um formulário de cadastro, com os campos nome, e-mail e senha e a existência de um botão para realizar o cadastro;
-
-Adicionar também uma label para cada campo e referenciar essa label ao ID que será atribuído ao campo;
-
-Enviar esse arquivo para o Github em uma branch chamada exercício_html;
-
-Enviar o link para nossos tutores.
-
-Atenção!
-
-Exemplo da entrega:
-
-![image](https://github.com/natsalete/curso_ebac_frontend/assets/135389319/36557b62-b136-4f4e-9ebe-8dd68307cdac)
 
