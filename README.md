@@ -55,3 +55,18 @@ Enviar os arquivos para o Github em uma branch chamada exercício_css;
 
 Enviar o link na plataforma.
 
+## 6.12 Tarefa Prática (Modúlo 6)
+### Fundamentos do JavaScriptSS
+
+#### Atividade Proposta:
+
+Neste exercício você vai praticar a construção de funções com o JavaScript.
+
+Você deve criar uma função chamada "calculaArea".
+Ela deverá receber dois parâmetros:
+1) base
+2) altura
+Deverá retornar a multiplicação destes fatores.
+
+Copie o código da função que você escreveu na Plataforma da EBAC que nossos tutores vão avaliar e dar o feedback.
+
