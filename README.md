@@ -6,7 +6,7 @@ A EBAC é uma instituição inovadora de ensino superior em Artes Criativas e Te
 
 link do curso: https://ebaconline.com.br/front-end-profession#price
 
-## 2.11 Tarefa Prática (Módulo 2)
+## 2.11 Tarefa Prática (Módulo 2) 
 ### Versionamento de código usando o Git 
 
 #### Atividade Proposta:
@@ -20,6 +20,10 @@ Criar uma branch chamada exercicio_git no repositório recém-criado;
 Na branch exercício_git deverá ser adicionado um arquivo nome.txt com o seu nome completo;
 
 Disponibilizar o link do repositório no portal do aluno.
+
+#### A atividade se encontra na branch exercício_git = https://github.com/natsalete/curso_ebac_frontend/tree/exerc%C3%ADcio_git
+
+<hr>
 
 ## 3.11 Tarefa Prática (Módulo 3)
 ### HTML
@@ -42,6 +46,10 @@ Exemplo da entrega:
 
 ![image](https://github.com/natsalete/curso_ebac_frontend/assets/135389319/36557b62-b136-4f4e-9ebe-8dd68307cdac)
 
+#### A atividade se encontra na branch exercício_html = https://github.com/natsalete/curso_ebac_frontend/tree/exerc%C3%ADcio_html
+
+<hr>
+
 ## 4.9 Tarefa Prática (Modúlo 4)
 ### CSS
 
@@ -54,6 +62,9 @@ Criar mais duas seções no layout criado durante o módulo, por exemplo: entret
 Enviar os arquivos para o Github em uma branch chamada exercício_css;
 
 Enviar o link na plataforma.
+
+#### A atividade se encontra na branch exercício_css = https://github.com/natsalete/curso_ebac_frontend/tree/exerc%C3%ADcio_css
+<hr>
 
 ## 6.12 Tarefa Prática (Modúlo 6)
 ### Fundamentos do JavaScriptSS
@@ -69,4 +80,30 @@ Ela deverá receber dois parâmetros:
 Deverá retornar a multiplicação destes fatores.
 
 Copie o código da função que você escreveu na Plataforma da EBAC que nossos tutores vão avaliar e dar o feedback.
+
+#### A atividade se encontra na branch exercicio_01_javacript = https://github.com/natsalete/curso_ebac_frontend/tree/exercicio_01_javascript
+<hr>
+
+## 7.9 Tarefa Prática (Modúlo 7)
+### Integre HTML com JavaScript
+
+#### Atividade Proposta:
+
+1) Crie um formulário HTML que possua dois campos numéricos:
+- campo A
+- campo B
+
+3) Insira um botão para submeter o formulário.
+
+4) Crie uma validação no JavaScript, na qual o formulário será válido caso o número B seja maior que o número A.
+
+5) Exiba uma mensagem positiva para o usuário quando o formulário for válido e uma mensagem negativa quando for inválido.
+
+6) Suba no Github no repositório do curso em uma branch chamada exercicio_html_js.
+
+7) Copie o link do repositório na plataforma da EBAC que a equipe de tutoria dará o feedback.
+
+#### A atividade se encontra na branch exercicio_html_js = https://github.com/natsalete/curso_ebac_frontend/tree/exercicio_html_js
+<hr>
+
 
