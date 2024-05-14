@@ -1,0 +1,126 @@
+/* Variables */
+:root {
+  --black-dark: #000;
+  --green-light: #e9f8e5;
+  --background-color: #fcfeff;
+  --border-color: #73895d;
+  --font-family-aleo: "Aleo", sans-serif;
+  --font-family-poppins: "Poppins", sans-serif;
+}
+
+/* Reset styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: var(--green-light);
+  width: 960px;
+  height: 540px;
+  padding-left: 54.48px;
+  gap: 52px;
+  flex-shrink: 0;
+  box-shadow: 163px 309px 98px 0px rgba(0, 0, 0, 0),
+    105px 198px 90px 0px rgba(0, 0, 0, 0.03),
+    59px 111px 76px 0px rgba(0, 0, 0, 0.09),
+    26px 49px 56px 0px rgba(0, 0, 0, 0.15),
+    7px 12px 31px 0px rgba(0, 0, 0, 0.18);
+}
+
+img {
+  width: 374px;
+  height: 375.5px;
+  flex-shrink: 0;
+}
+
+.containerForm {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+  width: 480px;
+  height: 540px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background-color: var(--background-color);
+}
+
+.svg-titulo {
+  display: flex;
+  align-items: center;
+  margin-top: 120px;
+}
+
+svg {
+  width: 25.48px;
+  height: 45.18px;
+  stroke-width: 8.25px;
+  margin-right: 8px;
+}
+
+h1 {
+  color: var(--black-dark);
+  font-family: var(--font-family-aleo);
+  font-size: 25px;
+  font-weight: 400;
+  opacity: 0.9;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+p {
+  color: var(--black-dark);
+  font-family: var(--font-family-poppins);
+  font-size: 15px;
+  font-weight: 250;
+  opacity: 0.8;
+}
+
+input {
+  width: 379.17px;
+  height: 34.27px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  border: 2.5px solid rgba(0, 0, 0, 0.5);
+  padding: 0 15px;
+}
+
+input::placeholder {
+  color: var(--black-dark);
+  font-family: var(--font-family-poppins);
+  font-size: 10px;
+  font-weight: 400;
+  opacity: 0.5;
+}
+
+button {
+  width: 375px;
+  height: 35px;
+  flex-shrink: 0;
+  border-radius: 30px 20px;
+  background-color: #73895d;
+  margin-top: 30px;
+  color: #fcfeff;
+  font-family: var(--font-family-poppins);
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  border-color: #73895d;
+  cursor: pointer;
+}
