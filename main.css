@@ -205,7 +205,7 @@ form button:hover{
 }
 
 .mensagem-sucesso button:hover{
-  background-color: #3B3939;
+  background-color:#585050;
 }
 
 .mensagem-error {
@@ -214,13 +214,13 @@ form button:hover{
 }
 
 .mensagem-error p b {
-  color:#E40000;
+  color: #770000;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .mensagem-error button {
-  background-color: #E40000;
+  background-color:  #770000;
 }
 
 .mensagem-error button:hover{
-  background-color: #E93D3D;
+  background-color: #E40000;
 }
