@@ -13,7 +13,7 @@ form.addEventListener("submit", handleFormSubmit);
 
 function handleFormSubmit(e) {
   e.preventDefault();
-  formeEValido = numeroB.value > numeroA.value;
+  formeEValido = Number(numeroB.value) > Number(numeroA.value);
   handleValidation(formeEValido);
 }
 
