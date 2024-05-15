@@ -25,4 +25,9 @@ link do curso: https://ebaconline.com.br/front-end-profession#price
 
 7) Copie o link do repositório na plataforma da EBAC que a equipe de tutoria dará o feedback.
 
+#### Minha resolução da tarefa
+
+https://github.com/natsalete/curso_ebac_frontend/assets/135389319/bacb6771-0150-416c-8633-50bc91b49edf
+
+
 
