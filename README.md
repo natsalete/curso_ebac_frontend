@@ -23,3 +23,6 @@ uma lista ordenada ou não.
 4) Utilize o jQuery para manipular os elementos e controlar os eventos.
 
 5) Crie uma branch chamada exercício_jquery no repositório do curso e nos envie o link através da plataforma. 
+
+#### A atividade se encontra na branch exercício_jquery = https://github.com/natsalete/curso_ebac_frontend/tree/exerc%C3%ADcio_jquery
+<hr>
