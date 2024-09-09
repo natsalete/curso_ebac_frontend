@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 1280px;
+  height: 625px;
+  background-color: #fcfcfc;
+  border: 1px solid #ddd;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0 20px 0;
+}
+
+header h1 {
+  font-family: Overpass, sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  background: linear-gradient(270deg, #C0F -2.84%, #5756FF 33.42%, #07FDFD 99.91%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
