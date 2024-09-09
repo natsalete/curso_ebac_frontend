@@ -16,13 +16,14 @@ body {
   height: 625px;
   background-color: #fcfcfc;
   border: 1px solid #ddd;
+  border-radius: 10px;
 }
 
 header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px 0 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0 20px 0;
 }
 
 header h1 {
@@ -31,8 +32,143 @@ header h1 {
   font-style: normal;
   font-weight: 900;
   line-height: normal;
-  background: linear-gradient(270deg, #C0F -2.84%, #5756FF 33.42%, #07FDFD 99.91%);
+  background: linear-gradient(
+    270deg,
+    #c0f -2.84%,
+    #5756ff 33.42%,
+    #07fdfd 99.91%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+form input {
+  display: flex;
+  width: 587px;
+  padding: 16px 20px;
+  align-items: flex-start;
+  gap: 10px;
+  border: none;
+  outline: none; 
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+  transition: box-shadow 0.3s ease; 
+  border-radius: 10px 0px 0px 10px;
+  background: #fff;
+}
+
+form ::placeholder {
+  color: #aaaaaa;
+  font-family: Overpass, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+form button {
+  display: flex;
+  width: 94px;
+  padding: 10px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border: none;
+  border-radius: 0px 10px 10px 0px;
+  background: linear-gradient(
+    83deg,
+    #07fdfd -2.81%,
+    #4d69fe 43.36%,
+    #c0f 95.68%
+  );
+  color: #fff;
+  font-family: Overpass, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.cont-tarefas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.cont-tarefas-feitas,
+.cont-tarefas-andamento{
+    display: flex;
+    width: 334px;
+    padding: 10px 16px;
+    align-items: flex-start;
+    gap: 10px;
+    border: 1px solid #D9D9D9;
+    background: #FFF;
+    box-shadow: 0px 10px 20px 0px rgba(240, 240, 240, 0.25);
+    margin: auto;
+}
+
+.cont-tarefas p{
+    font-family: Overpass, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: linear-gradient(270deg, #C0F -2.84%, #5756FF 33.42%, #07FDFD 99.91%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.lista-tarefas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.lista-tarefas li{
+    display: flex;
+    width: 687px;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 0px 10px 20px 0px rgba(240, 240, 240, 0.25);
+    margin-bottom: 20px;
+    color: #5A5A5A;
+    font-family: Overpass, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-color: none;
+    /* transition: border 0.3s ease;  */
+    cursor: pointer;
+    /* border: 1px solid #D9D9D9; */
+}
+
+li:hover{
+    border: 1px solid #D9D9D9;
+}
+
+.lista-tarefas-elementos {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.lista-tarefas-elementos button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
