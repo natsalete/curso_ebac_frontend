@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MY TO DO LIST</title>
     <link rel="stylesheet" href="./main.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container">
@@ -15,104 +18,28 @@
         <h1>MY TO DO LIST</h1>
       </header>
       <form action="">
-        <input type="text" required placeholder="Lista de tarefas" />
+        <input
+          type="text"
+          required
+          placeholder="Ex:Desligar o ar"
+          id="novaTarefa"
+        />
         <button type="submit">Salvar</button>
       </form>
       <div class="cont-tarefas">
         <div class="cont-tarefas-feitas">
-            <p>Tarefas feitas: 50</p>
+          <p>Tarefas feitas: <span id="contador-feitas">0</span></p>
         </div>
         <div class="cont-tarefas-andamento">
-            <p>Tarefas em andamento: 50</p>
+          <p>Tarefas em andamento: <span id="contador-andamento">0</span></p>
         </div>
       </div>
       <div class="lista-tarefas">
         <ul>
-          <li>
-            API de Membuat
-            <div class="lista-tarefas-elementos">
-              <button>
-                <img
-                src="./imagens/trash 1.svg"
-                alt="Imagem de uma cesto de lixo"
-              />
-              </button>
-              <button>
-                <img
-                src="./imagens/pencil-square 1.svg"
-                alt="Imagem de papel e caneta"
-              />
-              </button>
-              <button>
-                <img src="./imagens/check-circle 1.svg" alt="circulo com check" />
-              </button>       
-            </div>
-          </li>
-          <li>
-            Membuat tampilan Página inicial
-            <div class="cont-tarefas-elementos">
-                <div class="lista-tarefas-elementos">
-                    <button>
-                      <img
-                      src="./imagens/trash 1.svg"
-                      alt="Imagem de uma cesto de lixo"
-                    />
-                    </button>
-                    <button>
-                      <img
-                      src="./imagens/pencil-square 1.svg"
-                      alt="Imagem de papel e caneta"
-                    />
-                    </button>
-                    <button>
-                      <img src="./imagens/check-circle 1.svg" alt="circulo com check" />
-                    </button> 
-            </div>
-          </li>
-          <li>
-            Menu do painel
-            <div class="cont-tarefas-elementos">
-                <div class="lista-tarefas-elementos">
-                    <button>
-                      <img
-                      src="./imagens/trash 1.svg"
-                      alt="Imagem de uma cesto de lixo"
-                    />
-                    </button>
-                    <button>
-                      <img
-                      src="./imagens/pencil-square 1.svg"
-                      alt="Imagem de papel e caneta"
-                    />
-                    </button>
-                    <button>
-                      <img src="./imagens/check-circle 1.svg" alt="circulo com check" />
-                    </button> 
-            </div>
-          </li>
-          <li>
-            Teste de usabilidade Bareng Marketing
-            <div class="cont-tarefas-elementos">
-                <div class="lista-tarefas-elementos">
-                    <button>
-                      <img
-                      src="./imagens/trash 1.svg"
-                      alt="Imagem de uma cesto de lixo"
-                    />
-                    </button>
-                    <button>
-                      <img
-                      src="./imagens/pencil-square 1.svg"
-                      alt="Imagem de papel e caneta"
-                    />
-                    </button>
-                    <button>
-                      <img src="./imagens/check-circle 1.svg" alt="circulo com check" />
-                    </button> 
-            </div>
-          </li>
         </ul>
       </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="./main.js"></script>
   </body>
 </html>
