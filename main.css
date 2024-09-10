@@ -48,6 +48,17 @@ header h1 {
   -webkit-text-fill-color: transparent;
 }
 
+header h1:hover {
+  background: linear-gradient(
+    90deg,
+    #c0f -2.84%,
+    #5756ff 33.42%,
+    #07fdfd 99.91%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* Estilos do formulário */
 form {
   display: flex;
@@ -89,6 +100,16 @@ form button {
   cursor: pointer;
 }
 
+form button:hover {
+  background: linear-gradient(
+    180deg,
+    #07fdfd -2.81%,
+    #4d69fe 43.36%,
+    #c0f 95.68%
+  );
+  color: #fff;
+}
+
 /* Estilos para a lista de tarefas */
 .cont-tarefas {
   display: flex;
@@ -109,7 +130,7 @@ form button {
 
 .cont-tarefas p {
   font-family: Overpass, sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 600;
   background: linear-gradient(
     270deg,
