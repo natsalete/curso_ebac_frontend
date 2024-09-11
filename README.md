@@ -26,4 +26,7 @@ uma lista ordenada ou não.
 
 #### A atividade se encontra na branch exercício_jquery = https://github.com/natsalete/curso_ebac_frontend/tree/exerc%C3%ADcio_jquery
 #### Deploy = https://natalia-my-to-do-list.vercel.app/
+
+<video controls src="My to do list.mp4" title="My to do list"></video>
+
 <hr>
