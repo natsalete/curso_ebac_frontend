@@ -125,5 +125,8 @@ uma lista ordenada ou não.
 5) Crie uma branch chamada exercício_jquery no repositório do curso e nos envie o link através da plataforma. 
 
 #### A atividade se encontra na branch exercício_jquery = https://github.com/natsalete/curso_ebac_frontend/tree/exerc%C3%ADcio_jquery
+
+#### Deploy = https://natalia-my-to-do-list.vercel.app/
+https://github.com/user-attachments/assets/9fa7ada5-4bff-43cc-b570-d54877bfd601
 <hr>
 
