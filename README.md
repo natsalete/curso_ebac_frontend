@@ -130,3 +130,20 @@ uma lista ordenada ou não.
 https://github.com/user-attachments/assets/9fa7ada5-4bff-43cc-b570-d54877bfd601
 <hr>
 
+## 10.9 Tarefa Prática (Modúlo 9)
+### Integre HTML com JavaScript
+
+#### Atividade Proposta:
+
+A entrega deste exercício consiste em deixar o projeto disponível no link do GitHub funcional, com:
+
+    - o carousel funcionando em slides;
+    - a validação;
+    - máscaras operativas.
+
+Link: https://github.com/havokkmorands/plugins-jquery-exercicio
+
+#### A atividade se encontra na branch plugins-jquery_exercicio = https://github.com/natsalete/curso_ebac_frontend/tree/plugins-jquery_exercicio
+
+<hr>
+
